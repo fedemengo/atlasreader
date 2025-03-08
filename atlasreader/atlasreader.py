@@ -920,4 +920,5 @@ def create_output(
             if stat_plot_kws is None:
                 stat_plot_kws = {}
             stat_plot_params.update(stat_plot_kws)
+            print(stat_plot_params)
             plotting.plot_stat_map(**stat_plot_params)
